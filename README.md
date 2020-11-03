@@ -4,7 +4,7 @@ A python application that enables you to pick colors from your screen using your
 
 ## Usage
 
-Keep the program running in the background, move your mouse cursor to any point on the screen. Hit the keyboard shortcut combination (CTRL + ALT + C by default). The hex color code of the pixel on that exact point your cursor was on will be sent to your clipboard (eg: #ffffff). It'll also get printed on the console application alongside it's RGB value and the coordinate.
+Keep the program running in the background, move your mouse cursor to any point on the screen. Hit the keyboard shortcut combination (CTRL + ALT + C by default). The hex color code of the pixel on that exact point your cursor was on will be sent to your clipboard (eg: #ffffff). It'll also get printed on the console application alongside it's RGB value and the coordinates.
 ![](video.gif)
 
 ## Requirements
@@ -25,6 +25,7 @@ This program is written specifically to run on Windows systems. I will update it
 - MacOS support.
 - Linux support.
 - Config file so that users can easily change the hotkeys, alongside other settings.
+- A GUI (preferably Tkinter) that also shows the color.
 
 License
 ----
